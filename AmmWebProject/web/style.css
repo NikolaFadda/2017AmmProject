@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-set-2017, 11.36.43
+    Author     : nikola
+*/
+
+body {
+	 font-family: Arial, Verdana, sans-serif;
+         background-color: black ; 
+         color: #fefefe;
+         font-family: monospace ;
+        
+         
+       
+}
+
+
+
+.form {
+        position: relative;
+        max-width: fit-content ;
+        float: top;
+        text-align: center;
+        align-self: center; 
+        
+        submit{
+            color: #036b01;
+            background-color: black;
+            
+        }    
+    submit:hover{
+        border-bottom-color: #fefefe;
+        
+       
+              
+    }
+ 
+    .fieldset{
+        
+        text-align: center;
+    }
+    
+    
+}
+
+.nav{
+        text-align: center;
+        align-content: center;
+        color: #fefefe;
+        font-family: monospace;
+        
+    
+}
+
+.item{
+    background-color: #161616;
+    padding: 1%;
+    color: #036b01;
+    width: available ;
+    
+    
+}
+
+.post{
+    font-family: monospace;
+    
+    color: #036b01 ;
+    
+}
+
+#registration{
+     
+    
+}
+
+#wrapper{
+    float:bottom;
+    background-color: black;
+    
+}
+
+#credits{
+    float: bottom ;
+    
+}
+
+#links{
+    a:link{
+        
+    }
+    a:visited{
+        
+    }
+}

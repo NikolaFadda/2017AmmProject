@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>NerdBook - Registrazione</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="nav">
+            <h1>Registrati!</h1>
+            <p>Sei già registrato? <a href="index.html">Clicca qui!</a> </p>
+        </div>
+        <div id="registration" class="form">
+            <form action="RegisterServlet">
+                 <h4>Inserisci i tuoi dati</h4><br>
+                Username: <br>
+                <input type="text" name="username"><br><br>
+                Password: <br>
+                <input type="password" name="password"><br><br>
+                Nome:<br>
+                <input type="text" name="nome"><br><br>
+                Cognome:<br>
+                <input type="text" name="cognome"><br><br>
+                Citazione:<br>
+                <textarea cols="20" rows="3" name="quote"></textarea><br><br>
+                Propic:<br>
+                <input type="text" name="propic"><br>
+                <br>
+                <input type="submit" value="Registrati">
+                
+            </form>
+        </div>
+        
+    </body>
+</html>
+
